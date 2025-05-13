@@ -1,4 +1,5 @@
 import axios from 'axios'
+// keep a separate URL for DEV and PROD
 // const baseURL = 'http://localhost:3001/fruits' // DEV mode
 
 const baseURL = 'https://express-fruits-2025-04.onrender.com/fruits' // PROD mode 
