@@ -1,5 +1,7 @@
 import axios from 'axios'
-const baseURL = 'http://localhost:3001/fruits'
+// const baseURL = 'http://localhost:3001/fruits' // DEV mode
+
+const baseURL = 'https://express-fruits-2025-04.onrender.com/fruits' // PROD mode 
 
 // Show all FRUITS
 export const getFruits = async () => {
